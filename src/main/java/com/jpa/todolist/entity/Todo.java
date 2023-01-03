@@ -24,7 +24,7 @@ public class Todo {
     @Column(name="todos")
     private String todos;
 
-    @Column(name="indate")
+    @Column(name="indate", insertable = false)
     private String indate;
 
 }
